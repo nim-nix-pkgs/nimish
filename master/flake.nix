@@ -11,7 +11,6 @@
   inputs.src-nimish-master.ref   = "refs/heads/master";
   inputs.src-nimish-master.owner = "xflywind";
   inputs.src-nimish-master.repo  = "nimish";
-  inputs.src-nimish-master.dir   = "";
   inputs.src-nimish-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

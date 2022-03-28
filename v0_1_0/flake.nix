@@ -11,7 +11,6 @@
   inputs.src-nimish-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-nimish-v0_1_0.owner = "xflywind";
   inputs.src-nimish-v0_1_0.repo  = "nimish";
-  inputs.src-nimish-v0_1_0.dir   = "";
   inputs.src-nimish-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
